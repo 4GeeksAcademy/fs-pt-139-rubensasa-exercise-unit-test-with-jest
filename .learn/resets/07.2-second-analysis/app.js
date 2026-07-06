@@ -19,12 +19,12 @@ const fromEuroToDollar = (valueInEuro) => {
 }
 
 const fromDollarToYen = (valueInDollar) => {
-    let valueInYen = valueInDollar / 1.07 * 156.5;
+    let valueInYen = valueInDollar * 156.5;
     return valueInYen;
 }
 
 const fromYenToPound = (valueInYen) => {
-    let valueInPound = valueInYen / 156.5 * 0.87;
+    let valueInPound = valueInYen * 0.87;
     return valueInPound;
 }  
 
